@@ -18,7 +18,7 @@
     config: {
       businessName: "Maquiler",
       siteName: "Maquiler",
-      siteUrl: "https://maquiler.pages.dev",
+      siteUrl: "https://balbuenarecaldew-arch.github.io",
       machineName: "Mini Cargadora",
       whatsappNumber: "595972848607",
       whatsappMessageTemplate: "Hola, quiero reservar la mini cargadora.",
@@ -32,8 +32,8 @@
       socialTitle: "Alquiler de Mini Cargadora",
       socialDescription: "Reservas rapidas por WhatsApp",
       socialImage: "preview.jpg",
-      socialImageWidth: 1080,
-      socialImageHeight: 1085,
+      socialImageWidth: 838,
+      socialImageHeight: 1256,
     },
     pricing: {
       hourlyPrice: 220000,
@@ -47,7 +47,7 @@
     texts: {
       heroBadge: "Disponible para obras urbanas y trabajos de apoyo",
       heroTitle: "Alquiler de Mini Cargadora",
-      heroSubtitle: "Reservá rápido para movimiento de tierra, limpieza de terrenos y trabajos de carga.",
+      heroSubtitle: "Reservá rápida para movimiento de tierra, limpieza de terrenos y trabajos de carga.",
       commercialDescription: "Una landing directa, visual y confiable para que el cliente vea la máquina, entienda el precio y cierre la reserva por WhatsApp en pocos pasos.",
       reserveButtonText: "Reservar por WhatsApp",
       priceButtonText: "Ver precios",
@@ -76,11 +76,11 @@
       reserveSuccessMessage: "Reserva guardada. Abrimos WhatsApp para que sigas la coordinación.",
     },
     photos: [
-      { id: "photo-1", imageUrl: "foto1.jpg", altText: "Mini cargadora para alquiler en Asuncion y Gran Asuncion", caption: "Mini cargadora lista para alquiler", width: 1080, height: 1085, isPrimary: true, isActive: true, sortOrder: 1, createdAt: "2026-04-14T21:31:00.000Z" },
-      { id: "photo-2", imageUrl: "foto2.jpg", altText: "Mini cargadora trabajando en movimiento de tierra", caption: "Movimiento de tierra", width: 359, height: 467, isPrimary: false, isActive: true, sortOrder: 2, createdAt: "2026-04-14T21:31:01.000Z" },
-      { id: "photo-3", imageUrl: "foto3.jpg", altText: "Mini cargadora en limpieza de terrenos", caption: "Limpieza de terrenos", width: 346, height: 461, isPrimary: false, isActive: true, sortOrder: 3, createdAt: "2026-04-14T21:31:02.000Z" },
-      { id: "photo-4", imageUrl: "foto4.jpg", altText: "Mini cargadora nivelando suelo de obra", caption: "Nivelacion de suelo", width: 362, height: 451, isPrimary: false, isActive: true, sortOrder: 4, createdAt: "2026-04-14T21:31:03.000Z" },
-      { id: "photo-5", imageUrl: "foto5.jpg", altText: "Mini cargadora cargando materiales de obra", caption: "Carga de materiales", width: 349, height: 465, isPrimary: false, isActive: true, sortOrder: 5, createdAt: "2026-04-14T21:31:04.000Z" },
+      { id: "photo-1", imageUrl: "foto1.jpg", altText: "Mini cargadora lista para alquiler sobre plataforma de traslado", caption: "Lista para alquiler", width: 838, height: 1256, isPrimary: true, isActive: true, sortOrder: 1, createdAt: "2026-04-15T14:28:03.735Z" },
+      { id: "photo-2", imageUrl: "foto2.jpg", altText: "Mini cargadora disponible para alquiler", caption: "Disponible", width: 1280, height: 960, isPrimary: false, isActive: true, sortOrder: 2, createdAt: "2026-04-15T14:20:22.872Z" },
+      { id: "photo-3", imageUrl: "foto3.jpg", altText: "Mini cargadora sobre camion de traslado", caption: "Sobre camion", width: 700, height: 653, isPrimary: false, isActive: true, sortOrder: 3, createdAt: "2026-04-15T14:22:51.031Z" },
+      { id: "photo-4", imageUrl: "foto4.jpg", altText: "Mini pala cargadora modelo CDM307", caption: "Modelo CDM307", width: 1080, height: 1085, isPrimary: false, isActive: true, sortOrder: 4, createdAt: "2026-04-14T21:31:00.000Z" },
+      { id: "photo-5", imageUrl: "foto5.jpg", altText: "Mini cargadora trabajando en obra urbana", caption: "Trabajo en obra", width: 1280, height: 720, isPrimary: false, isActive: true, sortOrder: 5, createdAt: "2026-04-15T14:25:28.300Z" },
     ],
     services: [
       { id: "service-1", title: "Movimiento de tierra", description: "Preparación de terreno, rellenos, nivelaciones y carga para obras o accesos.", icon: "terrain" },
@@ -374,7 +374,7 @@
 
   function getSeoData(machine) {
     const config = machine?.config || {};
-    const siteUrl = stripTrailingSlash(config.siteUrl || "https://maquiler.pages.dev");
+    const siteUrl = stripTrailingSlash(config.siteUrl || "https://balbuenarecaldew-arch.github.io");
     const pageUrl = siteUrl ? `${siteUrl}/` : "/";
     const siteName = normalizeText(config.siteName || config.businessName || "Maquiler");
     const socialImageWidth = String(toNumber(config.socialImageWidth) || 1080);
